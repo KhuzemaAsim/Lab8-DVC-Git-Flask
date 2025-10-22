@@ -18,6 +18,5 @@ def dashboard():
 def api_data():
     return {"message": "API Response"}
 
-
 if __name__ == "__main__":
     app.run(debug=True)
